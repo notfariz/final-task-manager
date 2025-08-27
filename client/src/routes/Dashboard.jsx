@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import api from "../lib/api";
-import TaskForm from "../Components/TaskForm";
-import TaskItem from "../Components/TaskItem";
-import SortBar from "../Components/SortBar";
+import TaskForm from "../components/TaskForm";
+import TaskItem from "../components/TaskItem";
+import SortBar from "../components/SortBar";
 
 export default function Dashboard({ searchTerm = "" }) {
   const [tasks, setTasks] = useState([]);
